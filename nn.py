@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# this code refer to http://neuralnetworksanddeeplearning.com/index.html
 import json
 import sys
 import numpy as np

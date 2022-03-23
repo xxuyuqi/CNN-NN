@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# load the data and save as npz format.
 import struct
 import gzip
 import numpy as np
@@ -41,4 +42,3 @@ def loadData():
     test_lables = np.frombuffer(buf, dtype=np.uint8)
     test_lables = pd.get_dummies(test_lables).to_numpy()
     np.savez("test_data.npz", test_images=test_data, test_lables=test_lables)
-
