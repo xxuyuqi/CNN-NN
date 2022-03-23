@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import struct
 import gzip
 import numpy as np
